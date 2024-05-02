@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = JAbarcaInfS4Examen
+build_property.ProjectDir = /Users/jesus/Projects/JAbarcaInfS4Examen/JAbarcaInfS4Examen/
+
+[/Users/jesus/Projects/JAbarcaInfS4Examen/JAbarcaInfS4Examen/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = JAbarcaInfS4Examen.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/jesus/Projects/JAbarcaInfS4Examen/JAbarcaInfS4Examen/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = JAbarcaInfS4Examen.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/jesus/Projects/JAbarcaInfS4Examen/JAbarcaInfS4Examen/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = JAbarcaInfS4Examen.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/jesus/Projects/JAbarcaInfS4Examen/JAbarcaInfS4Examen/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = JAbarcaInfS4Examen.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/jesus/Projects/JAbarcaInfS4Examen/JAbarcaInfS4Examen/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = JAbarcaInfS4Examen.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/jesus/Projects/JAbarcaInfS4Examen/JAbarcaInfS4Examen/Vistas/VAcerca.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = JAbarcaInfS4Examen.Vistas.VAcerca.xaml
+build_metadata.AdditionalFiles.TargetPath = Vistas/VAcerca.xaml
+build_metadata.AdditionalFiles.RelativePath = Vistas/VAcerca.xaml
+
+[/Users/jesus/Projects/JAbarcaInfS4Examen/JAbarcaInfS4Examen/Vistas/VIndex.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = JAbarcaInfS4Examen.Vistas.VIndex.xaml
+build_metadata.AdditionalFiles.TargetPath = Vistas/VIndex.xaml
+build_metadata.AdditionalFiles.RelativePath = Vistas/VIndex.xaml
+
+[/Users/jesus/Projects/JAbarcaInfS4Examen/JAbarcaInfS4Examen/Vistas/Vlogin.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = JAbarcaInfS4Examen.Vistas.Vlogin.xaml
+build_metadata.AdditionalFiles.TargetPath = Vistas/Vlogin.xaml
+build_metadata.AdditionalFiles.RelativePath = Vistas/Vlogin.xaml
+
+[/Users/jesus/Projects/JAbarcaInfS4Examen/JAbarcaInfS4Examen/Vistas/VRegister.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = JAbarcaInfS4Examen.Vistas.VRegister.xaml
+build_metadata.AdditionalFiles.TargetPath = Vistas/VRegister.xaml
+build_metadata.AdditionalFiles.RelativePath = Vistas/VRegister.xaml
+
+[/Users/jesus/Projects/JAbarcaInfS4Examen/JAbarcaInfS4Examen/Vistas/VRegistro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = JAbarcaInfS4Examen.Vistas.VRegistro.xaml
+build_metadata.AdditionalFiles.TargetPath = Vistas/VRegistro.xaml
+build_metadata.AdditionalFiles.RelativePath = Vistas/VRegistro.xaml

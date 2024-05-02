@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JAbarcaInfS4Examen.Vistas.Vlogin"
+             Title="Login">
+    <VerticalStackLayout Spacing="20" Padding="25">
+        <Label 
+            Text="Inicio de Sesion!"
+            Margin="5"
+            FontSize="20"
+            TextColor="red"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Image Source="uisrael.png"/>
+        <Grid BackgroundColor="White">
+             <Grid.RowDefinitions>
+
+                 <RowDefinition
+                     Height="40" />
+                 <RowDefinition Height="40" />
+                 <RowDefinition Height="30" />
+
+             </Grid.RowDefinitions>
+             <Grid.ColumnDefinitions>
+                 <ColumnDefinition Width="5*" />
+                 <ColumnDefinition Width="5*"/>
+                 <ColumnDefinition Width="1" />
+             </Grid.ColumnDefinitions>
+            <Label
+                Text="Usuario: "
+                TextColor="Blue"
+                Grid.Row="0"
+                Grid.Column="0"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Start"
+
+            />
+            <Entry
+                x:Name="idUsuario"
+                TextColor="Black"
+                Placeholder="Ingrese Usuario"
+                Grid.Row="0"
+                Grid.Column="1"
+
+                />
+
+
+
+            <Label
+                    Text="Clave: "
+                    TextColor="Blue"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Start"
+
+                />
+            <Entry
+                x:Name="idClave"
+                TextColor="Black"
+                IsPassword="True"
+                Placeholder="*****"
+                Grid.Row="1"
+                Grid.Column="1"/>
+            <Button
+                Text="Ingresar "
+                x:Name="btnIngreso"
+                Padding="20"
+                TextColor="Black"
+                Grid.Row="2"
+                Grid.Column="0"
+                BackgroundColor="SkyBlue"
+                Margin="3"
+                Clicked="btnIngreso_Clicked"
+                
+             
+            />
+            <Button Text="Acerca De:" x:Name="btnAcercaDe" Grid.Row="2" Grid.Column="1" HorizontalOptions="FillAndExpand" Clicked="btnAcercaDe_Clicked"></Button>
+
+           <!-- <Button
+            Text="Regstrar"
+                x:Name="btnRegistrar"
+            Padding="20"
+            TextColor="Black"
+            Grid.Row="2"
+            Grid.Column="1"
+            BackgroundColor="CadetBlue"
+                Clicked="btnRegistrar_Clicked"
+            Margin="3"
+            />-->
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

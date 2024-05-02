@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="JAbarcaInfS4Examen.app/JAbarcaInfS4Examen">
+      <BCSymbolMapName>JAbarcaInfS4Examen.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>JAbarcaInfS4Examen.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/jesus/Projects/JAbarcaInfS4Examen/JAbarcaInfS4Examen/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>JAbarcaInfS4Examen.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/jesus/Projects/JAbarcaInfS4Examen/JAbarcaInfS4Examen</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

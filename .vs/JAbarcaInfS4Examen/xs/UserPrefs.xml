@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{F6257EC7-666C-4A80-B4BD-AA7DD624E3A9}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="JAbarcaInfS4Examen/Vistas/VIndex.xaml">
+    <Files>
+      <File FileName="JAbarcaInfS4Examen/MainPage.xaml.cs" />
+      <File FileName="JAbarcaInfS4Examen/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="JAbarcaInfS4Examen/Vistas/Vlogin.xaml" Line="72" Column="44" />
+      <File FileName="JAbarcaInfS4Examen/App.xaml.cs" Line="9" Column="46" />
+      <File FileName="JAbarcaInfS4Examen/Vistas/Vlogin.xaml.cs" Line="22" Column="45" />
+      <File FileName="JAbarcaInfS4Examen/Vistas/VIndex.xaml" Line="11" Column="45" />
+      <File FileName="JAbarcaInfS4Examen/Vistas/VIndex.xaml.cs" Line="13" Column="1" />
+      <File FileName="JAbarcaInfS4Examen/Vistas/VRegister.xaml" Line="71" Column="41" />
+      <File FileName="JAbarcaInfS4Examen/Vistas/VRegister.xaml.cs" Line="23" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="JAbarcaInfS4Examen" expanded="True">
+            <Node name="JAbarcaInfS4Examen" expanded="True">
+              <Node name="Vistas" expanded="True">
+                <Node name="VIndex.xaml" expanded="True" selected="True" />
+                <Node name="Vlogin.xaml" expanded="True" />
+                <Node name="VRegister.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.ItemProperties.JAbarcaInfS4Examen PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MultiItemStartupConfigurations />
+</Properties>

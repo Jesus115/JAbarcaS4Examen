@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JAbarcaInfS4Examen.Vistas.VRegistro"
+             Title="Resumen">
+    <VerticalStackLayout>
+        <Grid BackgroundColor="White">
+             <Grid.RowDefinitions>
+
+                 <RowDefinition />
+
+             </Grid.RowDefinitions>
+             <Grid.ColumnDefinitions>
+                 <ColumnDefinition Width="5*" />
+                 <ColumnDefinition />
+             </Grid.ColumnDefinitions>
+                <Label  Grid.Row="0" Grid.Column="0"  TextColor="Black" Text="Usuario Conectado:" HorizontalTextAlignment="Center" />
+                <Label  Grid.Row="0" Grid.Column="0"  TextColor="Black" x:Name="idUsuarioIngreso" HorizontalTextAlignment="End" />
+            </Grid>
+        <Label Text=" "></Label>
+        <Grid BackgroundColor="White">
+             <Grid.RowDefinitions>
+
+                 <RowDefinition />
+                 <RowDefinition />
+                 <RowDefinition />
+                 <RowDefinition />
+                 <RowDefinition />
+                 <RowDefinition />
+                 <RowDefinition />
+                 <RowDefinition />
+                 <RowDefinition />
+
+             </Grid.RowDefinitions>
+             <Grid.ColumnDefinitions>
+                 <ColumnDefinition />
+                 <ColumnDefinition />
+             </Grid.ColumnDefinitions>
+                <Label  Grid.Row="0" Grid.Column="0"  TextColor="Black" Text=" Nombre :" HorizontalTextAlignment="Start" />
+                <Label  Grid.Row="1" Grid.Column="0"  TextColor="Black"  Text=" Apellido :" HorizontalTextAlignment="Start" />
+                <Label  Grid.Row="2" Grid.Column="0"  TextColor="Black" Text=" Edad :"  HorizontalTextAlignment="Start" />
+                <Label  Grid.Row="3" Grid.Column="0"  TextColor="Black" Text=" Fecha :"    HorizontalTextAlignment="Start" />
+                <Label  Grid.Row="4" Grid.Column="0"  TextColor="Black" Text=" Ciudad :"   HorizontalTextAlignment="Start" />
+                <Label  Grid.Row="5" Grid.Column="0"  TextColor="Black"  Text=" Pais :"  HorizontalTextAlignment="Start" />
+                <Label  Grid.Row="6" Grid.Column="0"  TextColor="Black"  Text=" Monto Inicial :"  HorizontalTextAlignment="Start" />
+                <Label  Grid.Row="7" Grid.Column="0"  TextColor="Black"  Text=" Monto Mensual :"  HorizontalTextAlignment="Start" />
+                <Label  Grid.Row="8" Grid.Column="0"  TextColor="Black"   Text=" Monto Total :" HorizontalTextAlignment="Start" />
+                <Entry Grid.Row="0" HorizontalOptions="FillAndExpand" Grid.Column="1" x:Name="txtNombre" BackgroundColor="AliceBlue" TextColor="Black"></Entry> 
+                <Entry Grid.Row="1" HorizontalOptions="FillAndExpand" Grid.Column="1" x:Name="txtApelido" BackgroundColor="AliceBlue" TextColor="Black"></Entry> 
+                <Entry Grid.Row="2" HorizontalOptions="FillAndExpand" Grid.Column="1" x:Name="txtEdad" BackgroundColor="AliceBlue" TextColor="Black"></Entry> 
+                <Entry Grid.Row="3" HorizontalOptions="FillAndExpand" Grid.Column="1" x:Name="txtFecha" BackgroundColor="AliceBlue" TextColor="Black"></Entry>
+                <Entry Grid.Row="8" HorizontalOptions="FillAndExpand" Grid.Column="1" x:Name="txtCiudad" BackgroundColor="AliceBlue" TextColor="Black"></Entry> 
+                <Entry Grid.Row="4" HorizontalOptions="FillAndExpand" Grid.Column="1" x:Name="txtPais" BackgroundColor="AliceBlue" TextColor="Black"></Entry> 
+                <Entry Grid.Row="5" HorizontalOptions="FillAndExpand" Grid.Column="1" x:Name="txtMInicial" BackgroundColor="AliceBlue" TextColor="Black"></Entry> 
+                <Entry Grid.Row="6" HorizontalOptions="FillAndExpand" Grid.Column="1" x:Name="txtMMensual" BackgroundColor="AliceBlue" TextColor="Black"></Entry> 
+                <Entry Grid.Row="7" HorizontalOptions="FillAndExpand" Grid.Column="1" x:Name="txtMTotal" BackgroundColor="AliceBlue" TextColor="Black"></Entry> 
+
+            </Grid>
+        <Button Text="Cerrar Sesion" HorizontalOptions="FillAndExpand" Background="CadetBlue" x:Name="btnCerrarSesion" Clicked="btnCerrarSesion_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

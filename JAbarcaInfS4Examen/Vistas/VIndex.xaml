@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JAbarcaInfS4Examen.Vistas.VIndex"
+             Title="Registro">
+    <VerticalStackLayout >
+            <Grid BackgroundColor="White">
+             <Grid.RowDefinitions>
+
+                 <RowDefinition />
+
+             </Grid.RowDefinitions>
+             <Grid.ColumnDefinitions>
+                 <ColumnDefinition Width="5*" />
+                 <ColumnDefinition />
+             </Grid.ColumnDefinitions>
+                <Label  Grid.Row="0" Grid.Column="0"  TextColor="Black" Text="Usuario Conectado:" HorizontalTextAlignment="Center" />
+                <Label  Grid.Row="0" Grid.Column="0"  TextColor="Black" x:Name="idUsuarioIngreso" HorizontalTextAlignment="End" />
+            </Grid>
+                
+            <Label
+
+                 Margin="5"
+                 Text=" Registro "
+                 TextColor="Blue"
+                 VerticalTextAlignment="Center"
+                 HorizontalTextAlignment="Center"
+                FontSize="20"
+
+                />
+            <Grid BackgroundColor="White">
+             <Grid.RowDefinitions>
+
+                 <RowDefinition />
+                 <RowDefinition />
+
+             </Grid.RowDefinitions>
+             <Grid.ColumnDefinitions>
+                 <ColumnDefinition  />
+                 <ColumnDefinition />
+                 <ColumnDefinition />
+             </Grid.ColumnDefinitions>
+                <Label  Grid.Row="0" Grid.Column="0"  TextColor="Black" Text="Nombre" HorizontalTextAlignment="Center" />
+                <Label  Grid.Row="0" Grid.Column="1"  TextColor="Black" Text="Apellido" HorizontalTextAlignment="Center" />
+                <Label  Grid.Row="0" Grid.Column="2"  TextColor="Black" Text="Edad" HorizontalTextAlignment="Center" />
+                <Entry Grid.Row="1" Grid.Column="0" x:Name="txtNombre" BackgroundColor="AliceBlue" TextColor="Black"></Entry> 
+                <Entry Grid.Row="1" Grid.Column="1" x:Name="txtApellido" BackgroundColor="AliceBlue" TextColor="Black"></Entry> 
+                <Entry Grid.Row="1" Keyboard="Numeric" Grid.Column="2" x:Name="txtEdad" BackgroundColor="AliceBlue" TextColor="Black" ></Entry> 
+                
+            </Grid>
+        <Label Text=" "></Label>
+        <Grid BackgroundColor="White" HorizontalOptions="FillAndExpand">
+             <Grid.RowDefinitions > 
+
+                 <RowDefinition  Height="30" />
+                 <RowDefinition Height="30"/>
+                 <RowDefinition Height="30"/>
+                 <RowDefinition Height="30"/>
+                 <RowDefinition Height="30"/>
+
+             </Grid.RowDefinitions>
+             <Grid.ColumnDefinitions>
+                 <ColumnDefinition  Width="3*"/>
+                 <ColumnDefinition Width="5*"/>
+             </Grid.ColumnDefinitions>
+                <Label  Grid.Row="0" Grid.Column="0"  TextColor="Black" Text=" Fecha :" HorizontalTextAlignment="Start" />
+                <Label  Grid.Row="1" Grid.Column="0"  TextColor="Black" Text=" Pais :" HorizontalTextAlignment="Start" />
+                <Label  Grid.Row="2" Grid.Column="0"  TextColor="Black" Text=" Ciudad :" HorizontalTextAlignment="Start" />
+                <Label  Grid.Row="3" Grid.Column="0"  TextColor="red" Text=" Monto Inicial :" HorizontalTextAlignment="Start" />
+                <Label  Grid.Row="4" Grid.Column="0"  TextColor="Green" Text=" Monto Final :" HorizontalTextAlignment="Start" />
+                <DatePicker Date="06/21/2024" Grid.Row="0" HorizontalOptions="FillAndExpand" Grid.Column="1" x:Name="txtFecha" BackgroundColor="DarkBlue" TextColor="Black"/>
+                <Entry Grid.Row="1" HorizontalOptions="FillAndExpand" Grid.Column="1" x:Name="txtPais" BackgroundColor="AliceBlue" TextColor="Black"></Entry> 
+                <Entry Grid.Row="2" HorizontalOptions="FillAndExpand" Grid.Column="1" x:Name="txtCiudad" BackgroundColor="AliceBlue" TextColor="Black"></Entry> 
+                <Entry Grid.Row="3"  HorizontalOptions="FillAndExpand" Grid.Column="1" x:Name="txtMInicial" BackgroundColor="AliceBlue" TextColor="Black"></Entry> 
+                <Entry Grid.Row="4" IsReadOnly="True" HorizontalOptions="FillAndExpand" Grid.Column="1" x:Name="txtMFinal" BackgroundColor="AliceBlue" TextColor="Black"></Entry> 
+
+            </Grid>
+        <Grid BackgroundColor="White">
+             <Grid.RowDefinitions>
+
+                 <RowDefinition />
+
+             </Grid.RowDefinitions>
+             <Grid.ColumnDefinitions>
+                 <ColumnDefinition Width="2*"/>
+                 <ColumnDefinition Width="2*"/>
+             </Grid.ColumnDefinitions>
+                <Button  Grid.Row="0" Grid.Column="0"
+                         Clicked="calPagoMensual_Clicked"
+                         x:Name="calPagoMensual"
+                         CornerRadius="5"
+                         Background="CadetBlue" TextColor="Black" Text="Calcular Pago mensual" HorizontalOptions="FillAndExpand" />
+                <Button  Grid.Row="0" Grid.Column="1" Clicked="verResumen_Clicked"  Background="LawnGreen" x:Name="verResumen" TextColor="Black" Text="Ver Resumen"  HorizontalOptions="FillAndExpand" />
+            </Grid>
+    </VerticalStackLayout>
+</ContentPage>
